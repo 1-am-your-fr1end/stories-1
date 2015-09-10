@@ -2,190 +2,190 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html,body{
-        margin:0
+    margin:0
 }
 
 body{
-        font-family:'Roboto', sans-serif
+    font-family:'Roboto', sans-serif
 }
 
 h1{
-        font-size:50px
+    font-size:50px
 }
 
 h2{
-        font-size:45px;
-        font-weight:300
+    font-size:45px;
+    font-weight:300
 }
 
 .btn-default,.btn-primary{
-        border-radius:0;
-        font-size:16px;
-        padding:12px 26px
+    border-radius:0;
+    font-size:16px;
+    padding:12px 26px
 }
 
 .btn-primary{
-        background-color:#2E72BD
+    background-color:#2E72BD
 }
 
 .home-main{
-        background:url(https://stories-rails.herokuapp.com/assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg) no-repeat center center;
-        background-size:cover;
-        height:700px
+    background:url(https://stories-rails.herokuapp.com/assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg) no-repeat center center;
+    background-size:cover;
+    height:700px
 }
 
 .home-main .content{
-        position:relative;
-        top:150px;
-        text-align:center
+    position:relative;
+    top:150px;
+    text-align:center
 }
 
 .home-main h1{
-        color:#fff;
-        font-weight:100;
-        margin-bottom:30px;
-        text-align:center;
-        text-shadow:0 2px 3px rgba(0,0,0,0.4)
+    color:#fff;
+    font-weight:100;
+    margin-bottom:30px;
+    text-align:center;
+    text-shadow:0 2px 3px rgba(0,0,0,0.4)
 }
 
 .home-supporting,.home-about,.about-supporting{
-        padding:80px 0;
-        text-align:center
+    padding:80px 0;
+    text-align:center
 }
 
 .home-supporting h2,.home-about h2,.about-supporting h2{
-        color:#000;
-        margin:30px 0
+    color:#000;
+    margin:30px 0
 }
 
 .home-supporting p,.about-supporting p{
-        font-size:21px;
-        font-weight:100
+    font-size:21px;
+    font-weight:100
 }
 
 .about-supporting p{
-        margin-top:30px
+    margin-top:30px
 }
 
 .home-secondary{
-        background:url(https://stories-rails.herokuapp.com/assets/home-secondary-afc0677adb14766e42df768244930249.jpg) no-repeat center center;
-        background-size:cover;
-        height:500px
+    background:url(https://stories-rails.herokuapp.com/assets/home-secondary-afc0677adb14766e42df768244930249.jpg) no-repeat center center;
+    background-size:cover;
+    height:500px
 }
 
 .about-main{
-        background:url(https://stories-rails.herokuapp.com/assets/about-main-5d7831840429815fe86338dd0b2918a8.jpg) no-repeat center center;
-        background-size:cover;
-        height:700px
+    background:url(https://stories-rails.herokuapp.com/assets/about-main-5d7831840429815fe86338dd0b2918a8.jpg) no-repeat center center;
+    background-size:cover;
+    height:700px
 }
 
 .about-main .content{
-        position:relative;
-        top:150px;
-        text-align:center
+    position:relative;
+    top:150px;
+    text-align:center
 }
 
 .about-main h1{
-        color:#fff;
-        font-weight:100;
-        margin-bottom:30px;
-        text-shadow:0 2px 3px rgba(0,0,0,0.4)
+    color:#fff;
+    font-weight:100;
+    margin-bottom:30px;
+    text-shadow:0 2px 3px rgba(0,0,0,0.4)
 }
 
 .about-main p{
-        font-size:21px;
-        font-weight:100
+    font-size:21px;
+    font-weight:100
 }
 
 .contact-main{
-        background:url(https://stories-rails.herokuapp.com/assets/contact-main-9fb04617516938f849971735fed62270.jpg) no-repeat center center;
-        background-size:cover;
-        height:700px
+    background:url(https://stories-rails.herokuapp.com/assets/contact-main-9fb04617516938f849971735fed62270.jpg) no-repeat center center;
+    background-size:cover;
+    height:700px
 }
 
 .contact-main .content{
-        position:relative;
-        top:150px;
-        text-align:center
+    position:relative;
+    top:150px;
+    text-align:center
 }
 
 .contact-main h1{
-        color:#fff;
-        font-weight:100;
-        margin-bottom:30px;
-        text-shadow:0 2px 3px rgba(0,0,0,0.4)
+    color:#fff;
+    font-weight:100;
+    margin-bottom:30px;
+    text-shadow:0 2px 3px rgba(0,0,0,0.4)
 }
 
 .footer{
-        background-color:#f9f9f9;
-        border-top:solid 1px #F5F5F5;
-        padding:40px 0 30px 0;
-        text-align:center
+    background-color:#f9f9f9;
+    border-top:solid 1px #F5F5F5;
+    padding:40px 0 30px 0;
+    text-align:center
 }
 
 .footer p{
-        text-transform:uppercase;
-        font-size:12px;
-        color:#aaa
+    text-transform:uppercase;
+    font-size:12px;
+    color:#aaa
 }
 
 .menu{
-        background-color:#000;
-        height:100%;
-        position:fixed;
-        top:0;
-        width:240px;
-        left:-240px;
-        z-index:1
+    background-color:#000;
+    height:100%;
+    position:fixed;
+    top:0;
+    width:240px;
+    left:-240px;
+    z-index:1
 }
 
 .menu ul{
-        list-style:none;
-        padding-left:0
+    list-style:none;
+    padding-left:0
 }
 
 .menu li a,.menu li a:visited{
-        color:#fff;
-        display:block;
-        font-size:18px;
-        font-weight:100;
-        padding:30px 40px;
-        text-decoration:none
+    color:#fff;
+    display:block;
+    font-size:18px;
+    font-weight:100;
+    padding:30px 40px;
+    text-decoration:none
 }
 
 .menu .icon-close{
-        position:absolute;
-        top:30px;
-        right:30px;
-        cursor:pointer
+    position:absolute;
+    top:30px;
+    right:30px;
+    cursor:pointer
 }
 
 .icon-menu{
-        position:absolute;
-        top:30px;
-        left:30px;
-        cursor:pointer
+    position:absolute;
+    top:30px;
+    left:30px;
+    cursor:pointer
 }
 
 form{
-        text-align:left
+    text-align:left
 }
 
 .form-control,.btn-default{
-        background-color:rgba(255,255,255,0.8);
-        border-radius:0
+    background-color:rgba(255,255,255,0.8);
+    border-radius:0
 }
 
 .form-control{
-        font-size:18px
+    font-size:18px
 }
 
 .form-group label{
-        font-size:16px;
-        color:#fff
+    font-size:16px;
+    color:#fff
 }
 
 .form-group input{
-        padding:20px 10px;
-        font-size:20px
+    padding:20px 10px;
+    font-size:20px
 }
