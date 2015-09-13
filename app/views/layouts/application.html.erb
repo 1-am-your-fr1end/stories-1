@@ -4,7 +4,7 @@
   <title>Stories</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -13,7 +13,7 @@
   <ul>
     <li><%= link_to "Home", root_path %></li>
     <li><%= link_to "About", about_path %></li>
-    <li><a href="/signups/new">Contact</a></li>
+    <li><%= link_to "Contact", new_signup_path %></li>
   </ul>
   <img alt="Close" class="icon-close" src="https://stories-rails.herokuapp.com/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px" />
 </div>

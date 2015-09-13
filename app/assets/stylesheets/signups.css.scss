@@ -1,0 +1,22 @@
+// Place all the styles related to the signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.contact-main{
+    background:url(https://stories-rails.herokuapp.com/assets/contact-main-9fb04617516938f849971735fed62270.jpg) no-repeat center center;
+    background-size:cover;
+    height:700px
+}
+
+.contact-main .content{
+    position:relative;
+    top:150px;
+    text-align:center
+}
+
+.contact-main h1{
+    color:#fff;
+    font-weight:100;
+    margin-bottom:30px;
+    text-shadow:0 2px 3px rgba(0,0,0,0.4)
+}
