@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var menu = function() {
+  $('.icon-menu').click(function() {
+    $('.home-main').animate({
+      left: '0'
+    }, 'slow')
+    $('.menu').animate({
+      left: '250'
+    }, 'slow')
+  });
+
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: '-250'
+    }, 'slow')
+  })
+}
+
+$(document).ready(menu);
