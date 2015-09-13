@@ -17,9 +17,6 @@
 
 var menu = function() {
   $('.icon-menu').click(function() {
-    $('.home-main').animate({
-      left: '0'
-    }, 'slow')
     $('.menu').animate({
       left: '250'
     }, 'slow')
