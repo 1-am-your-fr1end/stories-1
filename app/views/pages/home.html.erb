@@ -1,12 +1,3 @@
-<div class="menu">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/signups/new">Contact</a></li>
-  </ul>
-  <img alt="Close" class="icon-close" src="https://stories-rails.herokuapp.com/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px" />
-</div>
-
 <div class="home-main">
   <img alt="Open" class="icon-menu" src="https://stories-rails.herokuapp.com/assets/open-9688b19dacd0cc7d027490776ace74ff.svg" width="24px" />
   <div class="container">
@@ -34,12 +25,8 @@
 <div class="home-about">
   <div class="container">
   <h2>Discover Stories</h2>
-  <p><a class="btn btn-primary" href="about">Learn more</a></p>
-  </div>
-</div>
-
-<div class="footer">
-  <div class="container">
-    <p>A Shutterbugg Project</p>
+  <p>
+    <%= link_to 'Learn more', about_path, { :class => "btn btn-primary" } %>
+  </p>
   </div>
 </div>

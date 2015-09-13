@@ -9,7 +9,22 @@
 </head>
 <body>
 
+<div class="menu">
+  <ul>
+    <li><%= link_to "Home", root_path %></li>
+    <li><%= link_to "About", about_path %></li>
+    <li><a href="/signups/new">Contact</a></li>
+  </ul>
+  <img alt="Close" class="icon-close" src="https://stories-rails.herokuapp.com/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px" />
+</div>
+
 <%= yield %>
+
+<div class="footer">
+  <div class="container">
+    <p>A Shutterbugg Project</p>
+  </div>
+</div>
 
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
