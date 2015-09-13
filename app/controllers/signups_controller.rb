@@ -7,7 +7,7 @@ class SignupsController < ApplicationController
   def create
     signup = Signup.create(signup_params)
     if signup.save
-      redirect_to root_path
+      redirect_to thanks_path
     else
       redirect_to new_signup_path
     end
